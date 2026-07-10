@@ -2,7 +2,7 @@
 
 <img src="docs/icon.png" width="128" alt="FinLab Desktop" />
 
-# FinLab Desktop
+# FinLab Desktop <sup>Beta</sup>
 
 **用你自己的 Claude Code / Codex，在本機打造台股量化策略。**
 
@@ -11,6 +11,7 @@
 [![Latest release](https://img.shields.io/github/v/release/finlab-python/finlab-desktop?label=%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC&color=0e0f11)](https://github.com/finlab-python/finlab-desktop/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/finlab-python/finlab-desktop/total?label=%E4%B8%8B%E8%BC%89%E6%AC%A1%E6%95%B8&color=0e0f11)](https://github.com/finlab-python/finlab-desktop/releases)
 ![Platforms](https://img.shields.io/badge/macOS%20%7C%20Windows-%E6%94%AF%E6%8F%B4-0e0f11)
+![Beta](https://img.shields.io/badge/%E5%85%AC%E9%96%8B%E6%B8%AC%E8%A9%A6-Beta-f59e0b)
 
 <br />
 
@@ -50,6 +51,8 @@
 </div>
 
 ## 下載
+
+> **公開測試版（Beta）**：功能持續快速迭代中，遇到問題請直接按 App 內的「回報問題」或到 [Issues](https://github.com/finlab-python/finlab-desktop/issues) 告訴我們。
 
 | 平台 | 下載 |
 | --- | --- |
