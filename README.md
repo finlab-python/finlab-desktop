@@ -30,12 +30,12 @@
 
 |  |  |
 | --- | --- |
-| 🤖 **自帶 AI 訂閱** | 直接使用本機已登入的 Claude Code 或 Codex CLI，Claude Pro/Max、ChatGPT Plus/Pro 都能上工 |
-| ⚡ **原生 Python 核心** | 首次啟動自動以 [uv](https://github.com/astral-sh/uv) 安裝獨立 Python 環境，真實 Jupyter 核心執行 `finlab` 回測——不是瀏覽器模擬 |
-| 🌳 **實驗流程樹** | 每一輪回測自動封存績效、更新研究筆記、衍生下一批研究方向，策略演化一目瞭然 |
-| 💬 **執行中插話** | Agent 跑到一半直接輸入想法按 Enter，訊息即時送進進行中的回合，立刻調整方向 |
-| 🛠️ **Agent 自主管理環境** | 需要新套件？agent 自己 `uv pip install`；需要查資料？自己跑指令，全程在你的機器上 |
-| 🔄 **自動更新** | 透過 GitHub Releases 自動檢查、背景下載新版本 |
+| <img src="docs/icons/terminal.svg" width="16" align="center" /> **自帶 AI 訂閱** | 直接使用本機已登入的 Claude Code 或 Codex CLI，Claude Pro/Max、ChatGPT Plus/Pro 都能上工 |
+| <img src="docs/icons/zap.svg" width="16" align="center" /> **原生 Python 核心** | 首次啟動自動以 [uv](https://github.com/astral-sh/uv) 安裝獨立 Python 環境，真實 Jupyter 核心執行 `finlab` 回測——不是瀏覽器模擬 |
+| <img src="docs/icons/branch.svg" width="16" align="center" /> **實驗流程樹** | 每一輪回測自動封存績效、更新研究筆記、衍生下一批研究方向，策略演化一目瞭然 |
+| <img src="docs/icons/message.svg" width="16" align="center" /> **執行中插話** | Agent 跑到一半直接輸入想法按 Enter，訊息即時送進進行中的回合，立刻調整方向 |
+| <img src="docs/icons/wrench.svg" width="16" align="center" /> **Agent 自主管理環境** | 需要新套件？agent 自己 `uv pip install`；需要查資料？自己跑指令，全程在你的機器上 |
+| <img src="docs/icons/refresh.svg" width="16" align="center" /> **自動更新** | 透過 GitHub Releases 自動檢查、背景下載新版本 |
 
 <div align="center">
 <br />
@@ -63,14 +63,14 @@ macOS 版本已完成 Apple 公證（notarized），下載後直接開啟即可�
 
 1. **安裝並登入** — 開啟 FinLab Desktop，以 Google 帳號登入你的 [FinLab](https://ai.finlab.tw/desktop) 帳號（需 **AI MAX 方案**）。
 2. **Python 環境自動就緒** — 首次啟動自動安裝 uv、Python 與 `finlab` 套件，喝口咖啡就好。
-3. **接上你的 agent** — 安裝並登入任一 CLI：
+3. **接上你的 agent** — 在 App 的引導畫面按「一鍵安裝」與「登入」即可，全程不用開終端機。偏好自己來的話：
 
    ```bash
    # Claude Code（Claude Pro / Max 訂閱）
-   npm install -g @anthropic-ai/claude-code && claude
+   curl -fsSL https://claude.ai/install.sh | bash && claude auth login
 
    # Codex CLI（ChatGPT Plus / Pro 訂閱）
-   npm install -g @openai/codex && codex login
+   curl -fsSL https://chatgpt.com/codex/install.sh | sh && codex login
    ```
 
 4. 在輸入框描述你的策略想法，看著 agent 寫程式、跑回測、整理績效、提出下一步。
