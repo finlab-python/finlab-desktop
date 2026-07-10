@@ -14,7 +14,9 @@
 
 <br />
 
-<img src="docs/hero.png" width="880" alt="FinLab Desktop — 從聊天開始，打造你的投資組合" />
+<img src="docs/demo.gif" width="880" alt="回測模式實錄 — AI 自主研究、回測、記錄與演化" />
+
+<sub>▲ 回測模式實錄：AI 自主撰寫策略、執行回測、記錄實驗筆記並持續演化。</sub>
 
 </div>
 
@@ -40,6 +42,10 @@
 <img src="docs/model-picker.png" width="720" alt="模型選單 — Claude Code 與 Codex 的完整模型陣容" />
 <br />
 <sub>一鍵切換 Claude（Fable / Opus / Sonnet）、Codex（Sol / Luna / Terra，GPT-5.6）或雲端 Gemini，推理力度隨心調整。</sub>
+<br /><br />
+<img src="docs/positions.png" width="880" alt="持股追蹤 — 加權盈虧、個股報酬與換股行事曆" />
+<br />
+<sub>策略持股一目瞭然：加權盈虧、個股報酬與預定換股日。</sub>
 <br />
 </div>
 
